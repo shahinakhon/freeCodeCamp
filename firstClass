@@ -3,3 +3,24 @@ Machine Learning is a part of Artificial Intelligience
 ML take a data a figure out the rule himself for us using algorithms 
 Neural Networks is a form of ML that uses layered representation of dat a.
 Data is the most important part of AI and ML
+
+                              Tensor
+is a generalization of vectors and matrices to potentially higher dimensions
+They are the main objects that are passed and manipulated throughout the program
+Each Tensor - represnts a partialy defined computation that will eventually produce a value
+Rank/degree of tensors means the number of dimensions
+tf.rank() == shows the rank of a Tensor
+
+Shape of a Tensor
+the amount of elements that exist in each tensor
+tensor.shape
+
+   Types of Tensors
+*Variable
+*Constant
+*Placeholder
+*SparseTensor
+
+Tensor Session
+with tf.Session() as sess:
+  tensor.eval() # name of the tensor instead of tensor
